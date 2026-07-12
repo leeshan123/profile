@@ -104,7 +104,7 @@
 
 | 영역 | 사용 기술 |
 | --- | --- |
-| Backend | Java, Spring, Spring Boot, MyBatis, JSP, Thymeleaf, REST, HTTP |
-| Data | Oracle, MariaDB, SQL, Redis, Excel, Apache POI, JSON, Gson |
-| Frontend | HTML, CSS, JavaScript, AJAX, Vue.js, Responsive UI, 퍼블리싱·레이아웃 수정 |
-| Operations | Linux, Apache HTTP Server, Tomcat, Resin, Reverse Proxy, Docker, GitHub Actions |
+| Backend | Java, Spring, Spring Boot |
+| Data | Oracle, MariaDB, SQL, Redis |
+| Frontend | HTML, CSS, JavaScript, Thymeleaf, JSP |
+| Infrastructure | Nginx, Tomcat, Reverse Proxy, Docker, GitHub Actions |

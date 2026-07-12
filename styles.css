@@ -579,6 +579,34 @@ h3 {
   padding: clamp(26px, 4vw, 40px);
 }
 
+.experience-anseong {
+  --signature-accent: #9b7624;
+  --signature-canvas: #fffaf0;
+  --signature-ink: #594a28;
+  --signature-soft: #eee0a9;
+}
+
+.experience-youth {
+  --signature-accent: #436d67;
+  --signature-canvas: #f4faf8;
+  --signature-ink: #294e49;
+  --signature-soft: #cfe0dc;
+}
+
+.experience-movie {
+  --signature-accent: #55789b;
+  --signature-canvas: #f4f8fc;
+  --signature-ink: #29435e;
+  --signature-soft: #dbe7f1;
+}
+
+.experience-identity {
+  --signature-accent: #a65338;
+  --signature-canvas: #fff8f4;
+  --signature-ink: #693522;
+  --signature-soft: #efd2c5;
+}
+
 .experience-anseong .experience-summary {
   background: var(--yellow-pale);
 }
@@ -600,7 +628,78 @@ h3 {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   font-size: 0.76rem;
   font-weight: 850;
-  margin-bottom: auto;
+  margin-bottom: 18px;
+}
+
+.project-signature {
+  aspect-ratio: 3 / 2;
+  border: 1px solid rgba(24, 32, 47, 0.1);
+  border-radius: 18px;
+  display: block;
+  flex: 0 0 auto;
+  overflow: hidden;
+  width: 100%;
+}
+
+.project-signature .signature-canvas {
+  fill: var(--signature-canvas);
+}
+
+.project-signature .signature-panel,
+.project-signature .signature-window {
+  fill: rgba(255, 255, 255, 0.82);
+}
+
+.project-signature .signature-panel {
+  stroke: rgba(24, 32, 47, 0.1);
+  stroke-width: 1.5;
+}
+
+.project-signature .signature-accent {
+  fill: var(--signature-accent);
+}
+
+.project-signature .signature-soft {
+  fill: var(--signature-soft);
+}
+
+.project-signature .signature-muted {
+  fill: var(--signature-ink);
+  opacity: 0.28;
+}
+
+.project-signature .signature-rule,
+.project-signature .signature-accent-line,
+.project-signature .signature-check {
+  fill: none;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  vector-effect: non-scaling-stroke;
+}
+
+.project-signature .signature-rule {
+  stroke: var(--signature-ink);
+  stroke-width: 2;
+  opacity: 0.2;
+}
+
+.project-signature .signature-accent-line {
+  stroke: var(--signature-accent);
+  stroke-width: 3;
+}
+
+.project-signature .signature-dashed {
+  stroke-dasharray: 6 7;
+}
+
+.project-signature .signature-check {
+  stroke: #ffffff;
+  stroke-width: 5;
+}
+
+.project-meta {
+  margin-top: auto;
+  padding-top: 24px;
 }
 
 .project-type {
@@ -608,7 +707,7 @@ h3 {
   font-size: 0.69rem;
   font-weight: 850;
   letter-spacing: 0.04em;
-  margin: 56px 0 6px;
+  margin: 0 0 6px;
 }
 
 .experience-summary h3 {
@@ -627,6 +726,7 @@ h3 {
 
 .project-role {
   color: var(--sage-dark);
+  display: block;
   font-size: 0.72rem;
   font-weight: 850;
   margin-top: 14px;
@@ -634,6 +734,7 @@ h3 {
 
 .experience-summary time {
   color: var(--muted);
+  display: block;
   font-size: 0.7rem;
   font-weight: 700;
   margin-top: 15px;
@@ -1144,14 +1245,28 @@ h3 {
   .experience-summary {
     border-bottom: 1px solid var(--line);
     border-right: 0;
+    display: grid;
+    gap: 24px 30px;
+    grid-template-columns: minmax(180px, 0.85fr) minmax(0, 1.15fr);
   }
 
   .project-order {
+    grid-column: 1 / -1;
     margin-bottom: 0;
   }
 
-  .project-type {
-    margin-top: 38px;
+  .project-signature {
+    align-self: center;
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .project-meta {
+    align-self: center;
+    grid-column: 2;
+    grid-row: 2;
+    margin-top: 0;
+    padding-top: 0;
   }
 
   .learning-intro {
@@ -1197,6 +1312,15 @@ h3 {
 
   body {
     font-size: 15px;
+  }
+
+  .experience-summary {
+    display: flex;
+  }
+
+  .project-meta {
+    margin-top: 0;
+    padding-top: 22px;
   }
 
   .header-inner {

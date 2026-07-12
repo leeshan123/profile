@@ -932,6 +932,9 @@ h3 {
 }
 
 .skill-groups ul {
+  align-content: flex-start;
+  align-items: flex-start;
+  align-self: start;
   display: flex;
   flex-wrap: wrap;
   gap: 8px;

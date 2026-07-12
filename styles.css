@@ -905,6 +905,7 @@ h3 {
   display: grid;
   gap: 24px;
   grid-template-columns: 140px minmax(0, 1fr);
+  min-width: 0;
   padding: 29px 28px 29px 0;
 }
 
@@ -936,6 +937,7 @@ h3 {
   gap: 8px;
   list-style: none;
   margin: 0;
+  min-width: 0;
   padding: 0;
 }
 
@@ -946,6 +948,9 @@ h3 {
   color: var(--ink-soft);
   font-size: 0.76rem;
   font-weight: 700;
+  line-height: 1.35;
+  max-width: 100%;
+  overflow-wrap: anywhere;
   padding: 7px 11px;
 }
 
@@ -1146,6 +1151,28 @@ h3 {
     position: static;
   }
 
+  .skill-groups {
+    grid-template-columns: 1fr;
+  }
+
+  .skill-groups article,
+  .skill-groups article:nth-child(even) {
+    border-bottom: 0;
+    border-left: 0;
+    gap: 18px;
+    grid-template-columns: 1fr;
+    padding: 25px 0;
+  }
+
+  .skill-groups article:last-child {
+    border-bottom: 1px solid var(--line-strong);
+  }
+
+  .skill-groups h3 {
+    display: flex;
+    gap: 10px;
+  }
+
   .contact-layout {
     align-items: start;
     gap: 38px;
@@ -1247,8 +1274,7 @@ h3 {
     padding-left: 0;
   }
 
-  .project-grid,
-  .skill-groups {
+  .project-grid {
     grid-template-columns: 1fr;
   }
 
@@ -1265,24 +1291,6 @@ h3 {
     display: flex;
     gap: 10px;
     grid-row: auto;
-  }
-
-  .skill-groups article,
-  .skill-groups article:nth-child(even) {
-    border-bottom: 0;
-    border-left: 0;
-    gap: 18px;
-    grid-template-columns: 1fr;
-    padding: 25px 0;
-  }
-
-  .skill-groups article:last-child {
-    border-bottom: 1px solid var(--line-strong);
-  }
-
-  .skill-groups h3 {
-    display: flex;
-    gap: 10px;
   }
 
   .footer-inner {

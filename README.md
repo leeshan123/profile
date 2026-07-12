@@ -24,7 +24,7 @@
 | --- | --- |
 | `3.5초 → 2.2초` | 온통청년 메인페이지의 최대 로딩 시간을 약 `37%` 줄였습니다. |
 | `약 20만 건` | 영화 약 `13만 건`과 영화인 약 `7만 건`을 수집해 자체 DB를 구축했습니다. |
-| `4인` | 영화의봄 팀장으로 데이터 흐름과 기술 방향을 조율했습니다. |
+| `4개` | 개인·실무 프로젝트에서 기능 개발과 서비스 운영을 경험했습니다. |
 | `3+1개` | 정기 스터디 3개와 업무 기반 개인 학습을 이어가고 있습니다. |
 
 ## 3. Project Experience
@@ -76,7 +76,7 @@
 | 프로젝트 | 확인한 질문 |
 | --- | --- |
 | [HTTP Response Contract Lab](https://github.com/leeshan123/http-response-contract-lab) | HTTP Status와 본문 코드는 어떤 책임을 가져야 하는가? |
-| [Excel Architecture Lab](https://github.com/leeshan123/excel-architecture-lab) | 위치 기반 처리와 Schema 기반 구조의 변경 비용은 어떻게 다른가? |
+| [Excel Architecture Lab](https://github.com/leeshan123/excel-architecture-lab) | 하드코딩된 Excel 업로드·다운로드를 재사용 가능한 공통 구조로 어떻게 개선하는가? |
 | [Client IP Infrastructure Lab](https://github.com/leeshan123/client-ip-infrastructure-lab) | Reverse Proxy 환경에서 전달 헤더를 어디까지 신뢰할 수 있는가? |
 | [HTTP Message Lab](https://github.com/leeshan123/http-message-lab) | 원시 HTTP 메시지를 객체로 모델링하면 무엇이 달라지는가? |
 | [Hierarchical Menu Lab](https://github.com/leeshan123/hierarchical-menu-lab) | 계층형 메뉴의 저장 모델과 화면 모델은 어떻게 분리하는가? |
@@ -106,9 +106,5 @@
 | --- | --- |
 | Backend | Java, Spring, Spring Boot, MyBatis, JSP, Thymeleaf, REST, HTTP |
 | Data | Oracle, MariaDB, SQL, Redis, Excel, Apache POI, JSON, Gson |
-| Frontend | HTML, CSS, JavaScript, AJAX, Vue.js, Responsive UI |
+| Frontend | HTML, CSS, JavaScript, AJAX, Vue.js, Responsive UI, 퍼블리싱·레이아웃 수정 |
 | Operations | Linux, Apache HTTP Server, Tomcat, Resin, Reverse Proxy, Docker, GitHub Actions |
-
----
-
-실무 경험은 공개 가능한 범위에서 문제·역할·결과만 정리했습니다. 개인정보, 내부 주소와 식별자, 상세 인프라 설정, 실제 업무 소스와 데이터는 포함하지 않습니다.

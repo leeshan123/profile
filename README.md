@@ -69,6 +69,15 @@
 
 `Java` `Spring` `MyBatis` `MariaDB` `Gson` `AJAX`
 
+### 3.4. 본인확인지원포털
+
+관련 담당자들과 배포 조건을 조율하고, 포트 포워딩 방식으로 사이트를 배포했습니다.
+
+- 협업 과정에서 필요한 배포 범위와 확인 항목을 정리했습니다.
+- 사이트 공개 후 접속과 주요 화면 동작을 함께 확인했습니다.
+
+`Collaboration` `Port Forwarding` `Deployment`
+
 ## 4. Public Learning Labs
 
 실무에서 생긴 궁금증을 업무 소스나 실제 사용자 데이터 없이 일반화해 다시 구현한 저장소입니다.

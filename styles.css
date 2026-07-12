@@ -591,6 +591,10 @@ h3 {
   background: var(--blue-pale);
 }
 
+.experience-identity .experience-summary {
+  background: var(--clay-pale);
+}
+
 .project-order {
   color: rgba(24, 32, 47, 0.36);
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;

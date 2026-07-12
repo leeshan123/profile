@@ -1164,6 +1164,10 @@ h3 {
     padding: 25px 0;
   }
 
+  .skill-groups article:nth-last-child(-n + 2) {
+    border-bottom: 0;
+  }
+
   .skill-groups article:last-child {
     border-bottom: 1px solid var(--line-strong);
   }

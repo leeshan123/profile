@@ -76,7 +76,7 @@
 | 프로젝트 | 확인한 질문 |
 | --- | --- |
 | [HTTP Response Contract Lab](https://github.com/leeshan123/http-response-contract-lab) | HTTP Status와 본문 코드는 어떤 책임을 가져야 하는가? |
-| [Excel Architecture Lab](https://github.com/leeshan123/excel-architecture-lab) | 하드코딩된 Excel 업로드·다운로드를 재사용 가능한 공통 구조로 어떻게 개선하는가? |
+| [Excel Architecture Lab](https://github.com/leeshan123/excel-architecture-lab) | 하드코딩된 Excel 업로드·다운로드를 공통 처리와 업무별 로직으로 어떻게 분리하는가? |
 | [Client IP Infrastructure Lab](https://github.com/leeshan123/client-ip-infrastructure-lab) | Reverse Proxy 환경에서 전달 헤더를 어디까지 신뢰할 수 있는가? |
 | [HTTP Message Lab](https://github.com/leeshan123/http-message-lab) | 원시 HTTP 메시지를 객체로 모델링하면 무엇이 달라지는가? |
 | [Hierarchical Menu Lab](https://github.com/leeshan123/hierarchical-menu-lab) | 계층형 메뉴의 저장 모델과 화면 모델은 어떻게 분리하는가? |
